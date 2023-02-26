@@ -1,0 +1,113 @@
+student@Ubuntu-MySQL-VirtualBox:~$ mkdir Игрушки_для_школьников
+student@Ubuntu-MySQL-VirtualBox:~$ mkdir Игрушки_для_дошколят
+student@Ubuntu-MySQL-VirtualBox:~$ ls -l
+итого 52
+-rw-r--r— 1 student student 8980 апр 22 2019 examples.desktop
+drwxr-xr-x 2 student student 4096 апр 22 2019 Видео
+drwxr-xr-x 2 student student 4096 апр 22 2019 Документы
+drwxr-xr-x 2 student student 4096 апр 22 2019 Загрузки
+drwxrwxr-x 2 student student 4096 фев 19 16:08 Игрушки_для_дошколят
+drwxrwxr-x 2 student student 4096 фев 19 16:07 Игрушки_для_школьников
+drwxr-xr-x 2 student student 4096 апр 22 2019 Изображения
+drwxr-xr-x 2 student student 4096 апр 22 2019 Музыка
+drwxr-xr-x 2 student student 4096 апр 22 2019 Общедоступные
+drwxr-xr-x 2 student student 4096 апр 22 2019 Рабочий стол
+drwxr-xr-x 2 student student 4096 апр 22 2019 Шаблоны
+student@Ubuntu-MySQL-VirtualBox:~$ cat > Игрушки_для_школьников/роботы
+Роботы
+^C
+student@Ubuntu-MySQL-VirtualBox:~$ cat > Игрушки_для_школьников/конструктор
+конструктор
+^C
+student@Ubuntu-MySQL-VirtualBox:~$ cat > Игрушки_для_школьников/нстольные_игры
+настольные игры
+^C
+student@Ubuntu-MySQL-VirtualBox:~$ cd Игрушки_для_школьников/
+student@Ubuntu-MySQL-VirtualBox:~/Игрушки_для_школьников$ ls -l
+итого 12
+-rw-rw-r— 1 student student 23 фев 19 16:11 конструктор
+-rw-rw-r— 1 student student 30 фев 19 16:11 нстольные_игры
+-rw-rw-r— 1 student student 13 фев 19 16:10 роботы
+student@Ubuntu-MySQL-VirtualBox:~/Игрушки_для_школьников$ cd ~
+student@Ubuntu-MySQL-VirtualBox:~$ cat > Игрушки_для_дошколят/Мягкие_игрушки
+мягкие игрушки
+^C
+student@Ubuntu-MySQL-VirtualBox:~$ cat > Игрушки_для_дошколят/Куклы
+куклы
+^C
+student@Ubuntu-MySQL-VirtualBox:~$ cat > Игрушки_для_дошколят/Машинки
+машинки
+^C
+student@Ubuntu-MySQL-VirtualBox:~$ cd Игрушки_для_дошколят/
+student@Ubuntu-MySQL-VirtualBox:~/Игрушки_для_дошколят$ ls -l
+итого 12
+-rw-rw-r— 1 student student 11 фев 19 16:15 Куклы
+-rw-rw-r— 1 student student 15 фев 19 16:15 Машинки
+-rw-rw-r— 1 student student 28 фев 19 16:14 Мягкие_игрушки
+student@Ubuntu-MySQL-VirtualBox:~/Игрушки_для_дошколят$ cd ~
+student@Ubuntu-MySQL-VirtualBox:~$ mkdir Имя_игрушки
+student@Ubuntu-MySQL-VirtualBox:~$ mv Игрушки_для_школьников/ Игрушки_для_дошколят/ Имя_игрушки/
+student@Ubuntu-MySQL-VirtualBox:~$ cd Имя_игрушки/
+student@Ubuntu-MySQL-VirtualBox:~/Имя_игрушки$ ls -l
+итого 8
+drwxrwxr-x 2 student student 4096 фев 19 16:15 Игрушки_для_дошколят
+drwxrwxr-x 2 student student 4096 фев 19 16:11 Игрушки_для_школьников
+student@Ubuntu-MySQL-VirtualBox:~/Имя_игрушки$ cd ~
+student@Ubuntu-MySQL-VirtualBox:~$ ls -l
+итого 48
+-rw-r--r— 1 student student 8980 апр 22 2019 examples.desktop
+drwxr-xr-x 2 student student 4096 апр 22 2019 Видео
+drwxr-xr-x 2 student student 4096 апр 22 2019 Документы
+drwxr-xr-x 2 student student 4096 апр 22 2019 Загрузки
+drwxr-xr-x 2 student student 4096 апр 22 2019 Изображения
+drwxrwxr-x 4 student student 4096 фев 19 16:22 Имя_игрушки
+drwxr-xr-x 2 student student 4096 апр 22 2019 Музыка
+drwxr-xr-x 2 student student 4096 апр 22 2019 Общедоступные
+drwxr-xr-x 2 student student 4096 фев 19 16:18 Рабочий стол
+drwxr-xr-x 2 student student 4096 апр 22 2019 Шаблоны
+student@Ubuntu-MySQL-VirtualBox:~$ mv Имя_игрушки/ Игрушки
+student@Ubuntu-MySQL-VirtualBox:~$ ls -l
+итого 48
+-rw-r--r— 1 student student 8980 апр 22 2019 examples.desktop
+drwxr-xr-x 2 student student 4096 апр 22 2019 Видео
+drwxr-xr-x 2 student student 4096 апр 22 2019 Документы
+drwxr-xr-x 2 student student 4096 апр 22 2019 Загрузки
+drwxrwxr-x 4 student student 4096 фев 19 16:22 Игрушки
+drwxr-xr-x 2 student student 4096 апр 22 2019 Изображения
+drwxr-xr-x 2 student student 4096 апр 22 2019 Музыка
+drwxr-xr-x 2 student student 4096 апр 22 2019 Общедоступные
+drwxr-xr-x 2 student student 4096 фев 19 16:18 Рабочий стол
+drwxr-xr-x 2 student student 4096 апр 22 2019 Шаблоны
+student@Ubuntu-MySQL-VirtualBox:~$ ls ~/Игрушки
+Игрушки_для_дошколят Игрушки_для_школьников
+student@Ubuntu-MySQL-VirtualBox:~$ cd Игрушки/
+student@Ubuntu-MySQL-VirtualBox:~/Игрушки$ tree -g
+.
+├── [student ] Игрушки_для_дошколят
+│ ├── [student ] Куклы
+│ ├── [student ] Машинки
+│
+└── [student ] Мягкие_игрушки
+└── [student ] Игрушки_для_школьников
+├── [student ] конструктор
+├── [student ] нстольные_игры
+└── [student ] роботы
+
+2 directories, 6 files
+
+student@Ubuntu-MySQL-VirtualBox:~$ sudo apt install snap
+Чтение списков пакетов… Готово
+Построение дерева зависимостей
+Чтение информации о состоянии… Готово
+Уже установлен пакет snap самой новой версии (2013-11-29-1ubuntu2.16.04.1).
+Следующий пакет устанавливался автоматически и больше не требуется:
+snapd-login-service
+Для его удаления используйте «sudo apt autoremove».
+Обновлено 0 пакетов, установлено 0 новых пакетов, для удаления отмечено 0 пакетов, и 453 пакетов не обновлено.
+student@Ubuntu-MySQL-VirtualBox:~$ sudo ln -s /var/lid/snapd/snap /snap
+student@Ubuntu-MySQL-VirtualBox:~$ snap install gimp
+2023-02-19T16:49:05+03:00 INFO Waiting for restart...
+gimp 2.10.30 from Snapcrafters installed
+student@Ubuntu-MySQL-VirtualBox:~$ snap remove gimp
+gimp removed
+student@Ubuntu-MySQL-VirtualBox:~$
